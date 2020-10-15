@@ -7,6 +7,10 @@ namespace Slagsmålsspelet
         static void Main(string[] args)
         {
 
+           string play = "ja";
+
+           while (play == "ja") { //ifall man vill starta om spelet efter det är slut
+           
             string Karaktär = "Karaktär";
             string Göran = "Göran";
             int runda = 0;
@@ -16,6 +20,7 @@ namespace Slagsmålsspelet
 
             Random generator = new Random();
 
+            Console.Clear();
             System.Console.WriteLine("Du ska slåss mot Göran");
             System.Console.WriteLine("Göran har 150 HP och du har nuvarande 100 HP.");
             System.Console.WriteLine("Tryck ENTER för att fortsätta");
@@ -27,13 +32,14 @@ namespace Slagsmålsspelet
             System.Console.WriteLine("b) Leif (Gör mer Damage)");
             System.Console.WriteLine("c) Gunbritt (Har bättre accuracy)");
 
-            Karaktär = Console.ReadLine();
+            Karaktär = Console.ReadLine(); // här väljer man mellan tre olika karaktärer
 
 
-            while (Karaktär != "a" && Karaktär != "b" && Karaktär != "c")
+            while (Karaktär != "a" && Karaktär != "b" && Karaktär != "c") //ifall man skrev något fel
             {
                 System.Console.WriteLine("Du skrev inte in nån Ability, prova igen.");
-                Console.ReadLine();
+                Karaktär = Console.ReadLine();
+                
 
             }
 
@@ -47,7 +53,7 @@ namespace Slagsmålsspelet
 
                 Console.ReadLine();
 
-                while (HPB > 0 && HPG > 0)
+                while (HPB > 0 && HPG > 0) // att om hp inte är högre än 0 så är spelet över
                 {
 
                     Console.Clear();
@@ -123,7 +129,7 @@ namespace Slagsmålsspelet
 
             }
 
-            if (Karaktär == "c")
+            if (Karaktär == "c") //Gunbritt
             {
 
                 System.Console.WriteLine("Du valde Gumbrit, du gör lite mer damage och får oftast bra träffar.");
@@ -137,19 +143,19 @@ namespace Slagsmålsspelet
 
                     runda = runda + 1;
 
-                    System.Console.WriteLine("Runda:" + runda);
+                    System.Console.WriteLine("Runda:" + runda); //numret ökar med 1 för varje runda
 
                     Console.ReadLine();
 
-                    int random = generator.Next(8, 14);
+                    int random = generator.Next(8, 14); 
 
                     HPB = HPB - random;
 
                     System.Console.WriteLine("Gunbritt tog " + random + " i skada");
 
-                    random = generator.Next(15, 18);
+                    random = generator.Next(15, 18); //den slumpar mellan 16-17
 
-                    HPG = HPG - random;
+                    HPG = HPG - random; // HP minskar med antingen 16 eller 17 skada
 
                     System.Console.WriteLine(Göran + " tog " + random + " i skada");
 
@@ -163,6 +169,7 @@ namespace Slagsmålsspelet
                 }
 
             }
+
 
 
             if (HPB > HPG)
@@ -180,7 +187,7 @@ namespace Slagsmålsspelet
                 System.Console.WriteLine("Det tog " + runda + " rundor");
             }
 
-            if (HPB == HPG)
+            if (HPB == HPG) 
             {
                 Console.Clear();
                 System.Console.WriteLine("Det blev oavgjort!!");
@@ -188,12 +195,18 @@ namespace Slagsmålsspelet
             }
 
 
+            System.Console.WriteLine("Vill du spela igen? ja eller nej");
 
+            play = Console.ReadLine();
 
+            while (play != "ja" && play != "nej") { //ifall man skrev fel
 
+                System.Console.WriteLine("Du skrev inte ja eller nej, prova igen");
+                play = Console.ReadLine();
+            }
+            
 
-
-
+           }
 
 
             Console.ReadLine();
