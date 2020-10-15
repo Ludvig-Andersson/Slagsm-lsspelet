@@ -1,0 +1,13 @@
+C:\Users\ludvig.andersson8\Desktop\Programmering\Slagsmålsspelet\Slagsmålsspelet\bin\Debug\netcoreapp3.1\Slagsmålsspelet.exe
+C:\Users\ludvig.andersson8\Desktop\Programmering\Slagsmålsspelet\Slagsmålsspelet\bin\Debug\netcoreapp3.1\Slagsmålsspelet.deps.json
+C:\Users\ludvig.andersson8\Desktop\Programmering\Slagsmålsspelet\Slagsmålsspelet\bin\Debug\netcoreapp3.1\Slagsmålsspelet.runtimeconfig.json
+C:\Users\ludvig.andersson8\Desktop\Programmering\Slagsmålsspelet\Slagsmålsspelet\bin\Debug\netcoreapp3.1\Slagsmålsspelet.runtimeconfig.dev.json
+C:\Users\ludvig.andersson8\Desktop\Programmering\Slagsmålsspelet\Slagsmålsspelet\bin\Debug\netcoreapp3.1\Slagsmålsspelet.dll
+C:\Users\ludvig.andersson8\Desktop\Programmering\Slagsmålsspelet\Slagsmålsspelet\bin\Debug\netcoreapp3.1\Slagsmålsspelet.pdb
+C:\Users\ludvig.andersson8\Desktop\Programmering\Slagsmålsspelet\Slagsmålsspelet\obj\Debug\netcoreapp3.1\Slagsmålsspelet.csprojAssemblyReference.cache
+C:\Users\ludvig.andersson8\Desktop\Programmering\Slagsmålsspelet\Slagsmålsspelet\obj\Debug\netcoreapp3.1\Slagsmålsspelet.AssemblyInfoInputs.cache
+C:\Users\ludvig.andersson8\Desktop\Programmering\Slagsmålsspelet\Slagsmålsspelet\obj\Debug\netcoreapp3.1\Slagsmålsspelet.AssemblyInfo.cs
+C:\Users\ludvig.andersson8\Desktop\Programmering\Slagsmålsspelet\Slagsmålsspelet\obj\Debug\netcoreapp3.1\Slagsmålsspelet.csproj.CoreCompileInputs.cache
+C:\Users\ludvig.andersson8\Desktop\Programmering\Slagsmålsspelet\Slagsmålsspelet\obj\Debug\netcoreapp3.1\Slagsmålsspelet.dll
+C:\Users\ludvig.andersson8\Desktop\Programmering\Slagsmålsspelet\Slagsmålsspelet\obj\Debug\netcoreapp3.1\Slagsmålsspelet.pdb
+C:\Users\ludvig.andersson8\Desktop\Programmering\Slagsmålsspelet\Slagsmålsspelet\obj\Debug\netcoreapp3.1\Slagsmålsspelet.genruntimeconfig.cache
