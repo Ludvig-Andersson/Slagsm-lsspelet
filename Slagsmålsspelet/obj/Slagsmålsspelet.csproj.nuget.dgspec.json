@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lyxlu\\Documents\\GitHub\\Slagsm-lsspelet\\Slagsmålsspelet\\Slagsmålsspelet.csproj": {}
+    "C:\\Users\\Lyxlu\\Documents\\GitHub\\Slutprojektet\\Slagsmålsspelet\\Slagsmålsspelet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lyxlu\\Documents\\GitHub\\Slagsm-lsspelet\\Slagsmålsspelet\\Slagsmålsspelet.csproj": {
+    "C:\\Users\\Lyxlu\\Documents\\GitHub\\Slutprojektet\\Slagsmålsspelet\\Slagsmålsspelet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lyxlu\\Documents\\GitHub\\Slagsm-lsspelet\\Slagsmålsspelet\\Slagsmålsspelet.csproj",
+        "projectUniqueName": "C:\\Users\\Lyxlu\\Documents\\GitHub\\Slutprojektet\\Slagsmålsspelet\\Slagsmålsspelet.csproj",
         "projectName": "Slagsmålsspelet",
-        "projectPath": "C:\\Users\\Lyxlu\\Documents\\GitHub\\Slagsm-lsspelet\\Slagsmålsspelet\\Slagsmålsspelet.csproj",
+        "projectPath": "C:\\Users\\Lyxlu\\Documents\\GitHub\\Slutprojektet\\Slagsmålsspelet\\Slagsmålsspelet.csproj",
         "packagesPath": "C:\\Users\\Lyxlu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lyxlu\\Documents\\GitHub\\Slagsm-lsspelet\\Slagsmålsspelet\\obj\\",
+        "outputPath": "C:\\Users\\Lyxlu\\Documents\\GitHub\\Slutprojektet\\Slagsmålsspelet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lyxlu\\AppData\\Roaming\\NuGet\\NuGet.Config"

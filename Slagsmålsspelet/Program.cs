@@ -4,10 +4,37 @@ namespace Slagsmålsspelet
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
 
-           string play = "ja";
+            
+
+            System.Console.WriteLine("Vill du starta spelet? Ja eller Nej");
+            string play = Console.ReadLine();
+            
+            while (play !="ja" && play !="nej") {
+                System.Console.WriteLine("Du skrev inte ja eller nej, försök igen");
+                play = Console.ReadLine();
+            }
+            
+            if (play =="ja") {
+                Metod(); //här kommer den att använda den metod som jag har skrivit där nere
+                Console.ReadLine();
+            }
+
+            if (play == "nej") {
+                Console.ReadLine();
+            }
+
+
+        }
+
+        static void Metod() //den här koden kommer användas när metod() kommandot används
+
+        {
+
+            string play = "ja";
 
            while (play == "ja") { //ifall man vill starta om spelet efter det är slut
            
@@ -211,5 +238,10 @@ namespace Slagsmålsspelet
 
             Console.ReadLine();
         }
+
+        }
+        
+        
+           
     }
-}
+
